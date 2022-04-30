@@ -26,6 +26,7 @@ def test_01():
     assert x_untagged.shape == (13609,)
     assert y_untagged.shape == (13609,)
 
+  
 
 def test_02():
     """
@@ -50,7 +51,7 @@ def test_02():
 
     assert y_train.value_counts().to_dict() == {0.0: 454, 1.0: 446}
     assert y_test.value_counts().to_dict() == {1.0: 54, 0.0: 46}
-
+  
 
 def test_03():
     """
@@ -77,7 +78,7 @@ def test_03():
         "the",
         "toilet",
     ]
-
+   
 
 def test_04():
     """
